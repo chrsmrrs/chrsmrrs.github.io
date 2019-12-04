@@ -1,0 +1,37 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+    width: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #cc0000;
+    font-weight: 100;
+}
+p, div {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;    
+}
+
+date {
+    font-weight:900;
+}
+
+heavy {
+    font-weight:900;
+}
+

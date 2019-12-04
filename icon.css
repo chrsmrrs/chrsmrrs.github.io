@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+
+/* Icon */
+
+.icon {
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.icon > .label {
+    display: none;
+}
+
+/* Image */
+
+.image {
+    border-radius: 5px;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.image img {
+    border-radius: 5px;
+    display: block;
+}
+
+.image.left {
+    float: left;
+    margin: 0 2.5em 2em 0;
+    top: 0.25em;
+}
+
+.image.right {
+    float: right;
+    margin: 0 0 2em 2.5em;
+    top: 0.25em;
+}
+
+.image.fit {
+    display: block;
+    margin: 0 0 2.25em 0;
+    width: 100%;
+}
+
+.image.fit img {
+    display: block;
+    width: 100%;
+}
+
+.image.avatar {
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.image.avatar img {
+    border-radius: 100%;
+    display: block;
+    width: 100%;
+}
+
