@@ -37,3 +37,7 @@ a, a:link, a:visited {
 #wrapper h2 {
   font-size: 16pt;
 }
+
+#wrapper li {
+  margin-top: 0pt;
+}
