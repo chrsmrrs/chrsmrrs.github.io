@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Seminar</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="./css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+</head>
+
+<body data-gr-ext-installed="" data-new-gr-c-s-check-loaded="14.1044.0" data-new-gr-c-s-loaded="14.1044.0">
+    <div id="wrapper">
+        <h2 style="padding-top:5px;font-weight:bold;letter-spacing:1pt;"><a href="https://chrsmrrs.github.io/">Christopher Morris ></a> Teaching WS 22/23 > Seminar (Master): Foundations of Supervised Machine Learning with Graphs</h2>
+        <p>
+	  Graph-structured data is ubiquitous across application domains ranging from chemo- and bioinformatics to image and social network analysis. To develop successful machine learning algorithms, we need techniques that map the rich information inherent in the graph structure to a vectorial representation in a meaningful way—so-called graph embeddings. Designing such embeddings comes with unique challenges. The embedding has to account for the complex structure of (real-world) networks and additional high-dimensional continuous vectors attached to nodes and edges in a (permutation) invariant way while being scalable to massive graphs or sets of graphs. Moreover, when used in supervised machine learning, the model trained with such embeddings must generalize well to new or previously unseen (graph) instances. Hence, more abstractly, designing graph embeddings results in a trade-off between (1) expressivity, (2) scalability, and (3) generalization. In this seminar, we want to discuss the current progress on the theoretical foundations of machine learning on graphs, penetrating the above-listed three challenges.</p>
+
+	<h3>Requirements for Passing</h3>
+        <div style="background-color:#e0e5e0;padding:15px;padding-bottom:1px">
+	To pass the seminar, you need to fulfill the following:
+	<ol>
+	  <li>Give a 30-minute-long talk about your assigned paper.</li>
+	  <li>Write a 12- to 15-page (excluding title page) detailed report about your assigned paper.</li>
+	  <li>Peer-review your fellow students' reports.</li>
+	  <li>Attend all meetings and actively participate; see below for dates.</li>
+	</ol>
+	</div>
+
+	<h3>Talks</h3>
+	At the end of the semester, each student will give a 30-minute-long talk about their assigned paper. You should provide an overview of your choosen/assigned paper and highlight the most important concepts and ideas. Ideally, your presentation should give the audience (i.e., your fellow students) a good understanding of your assigned paper.
+
+
+	<h3>Reports</h3>
+	The report gives a detailed overview of the choosen/assigned paper. The required report length is 12 to 15 pages, using the provided LaTeX <a href="./seminar_template.zip">template</a>. This means that after you get your paper assigned, you write your report and submit it for "peer review" by your fellow students. You will receive constructive feedback to improve the paper; afterward, you will receive additional feedback from the seminar organizers. You can then submit an updated, final version, which will be graded. Note that this means that you will also have to write some short reviews on the reports by your fellow students.
+
+	<h3>Organization</h3>
+	<ol>
+	  <li>More details are given during the mandatory kick-off meeting.</li>
+	  <li>Papers will be assigned after the kick-off meeting.</li>
+	  <li>The long talks will be presented in day-long block seminar.</li>
+	  <li><b>All meetings (kick-off, peer-review, and final talks) will take place in Room 228, Theaterstraße 35 - 39.</b></li>
+	</ol>
+
+	
+
+	<h4>Dates</h4>
+	<table>
+	  <tr>
+	    <th align=left>Date</th>
+	    <th align=left></th>
+	  </tr>
+	  <tr>
+	    <td>02.10.2023, 10:00 &emsp;</td>
+		  <td>Kick-off meeting (in person).</td>
+	  </tr>
+	  <tr>
+	    <td>03.11.2023, 24:00</td>
+	    <td>Submission of report drafts.</td>
+	  </tr>
+	  <tr>
+	    <td>01.12.2023, 24:00</td>
+	    <td>Submission of reports for peer review.</td>
+	  </tr>
+	  <tr>
+	    <td>14.12.2023, 24:00</td>
+	    <td>Submission of peer reviews.</td>
+	  </tr>		
+	  <tr>
+	    <td>18.12.2023, 10:00</td>
+	    <td>Discussion of peer reviews (in person).</td>
+	  </tr>
+	  <tr>
+	    <td>09.01.2024, 24:00</td>
+	    <td>Submission of reports.</td>
+	  </tr>
+	  <tr>
+	    <td>16.01.2024, 24:00</td>
+	    <td>Feedback by the organizers.</td>
+	  </tr>
+	 <tr>
+	    <td>31.01.2024, 24:00</td>
+	    <td>Submission of final reports.</td>
+	 </tr>
+	  <tr>
+	    <td>09.02.2024, 24:00</td>
+	    <td>Submission of of presentation slides.</td>
+	  </tr>
+	  <tr>
+	    <td>19.02.2024, 10:00</td>
+	    <td>Talks (in person).</td>
+	 </tr>
+	</table>
+
+	<h3>Papers</h3>
+	The papers can be chosen from the following list.
+	<ol>
+	  <li><a href= "TBA"></href>TBA</li>
+         
+	</ol>
+	
+	<p></p>	
+    </div>
+</body>
+</html>
