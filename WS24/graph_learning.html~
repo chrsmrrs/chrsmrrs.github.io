@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Proseminar</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="./css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+</head>
+
+<body data-gr-ext-installed="" data-new-gr-c-s-check-loaded="14.1044.0" data-new-gr-c-s-loaded="14.1044.0">
+    <div id="wrapper">
+        <h2 style="padding-top:5px;font-weight:bold;letter-spacing:1pt;"><a href="https://chrsmrrs.github.io/">Christopher Morris ></a> Teaching SS 23 > Proseminar (Bachelor):  Maschinelles Lernen mit Graphen</h2>
+        <p>Graphenstrukturierte Daten sind in vielen Anwendungsbereichen allgegenwärtig, von der Chemo- und Bioinformatik bis hin zur Analyse von Bildern und sozialen Netzwerken. Um erfolgreiche Algorithmen für das maschinelle Lernen auf Graphen zu entwickeln, benötigen wir Techniken, die die reichhaltigen Informationen, die der Graphenstruktur innewohnen, auf sinnvolle Weise auf eine vektorielle Darstellung abbilden. In diesem Proseminar werden wir grundlegende wissenschaftliche Arbeiten zu diesem Thema vorstellen und diskutieren.</p>
+
+	<h3>Voraussetzungen für das Bestehen</h3>
+        <div style="background-color:#e0e5e0;padding:15px;padding-bottom:1px">
+	Um das Proseminar zu bestehen, müssen Sie Folgendes erfüllen:
+	<ol>
+	  <li>Ein 30-minütiger Vortrag über das zugeteilte Paper halten.</li>
+	  <li>Eine 10-seitige Ausarbeitung über das zugeteilte Paper schreiben.</li>
+	  <li>Teilnahme am Literaturkurs.</li>
+	  <li>Peer-Review einer anderen Ausarbeitung.</li>
+	  <li>Aktive Teilnahme an allen Terminen, siehe unten.</li>
+	</ol>
+	</div>
+
+	<h3>Vorträge</h3>
+	Am Ende des Semesters hält jede StudentIn einen 30-minütigen Vortrag über die ihm/ihr zugeteilte Arbeit. Sie sollten einen Überblick über die von Ihnen gewählte/zugewiesene Arbeit geben und die wichtigsten Konzepte und Ideen hervorheben. Idealerweise sollte Ihr Vortrag den Zuhörern (d. h. Ihren KommilitonenInnen) ein gutes Verständnis der Ihnen zugeteilten Paper vermitteln.
+
+
+	<h3>Ausarbeitung</h3>
+	Die Ausarbeitung sollte einen detaillierten Überblick über die gewählte/zugeteilte Paper geben. Die erforderliches Länge beträgt zehn Seiten unter Verwendung der bereitgestellten <a href="./seminar_template.zip">LaTeX-Vorlage</a>. Das bedeutet, dass Sie nach der Zuteilung des Paper Ihre Ausarbeitung schreiben und sie zum "Peer-Review" durch Ihre KommilitonenInnen einreichen. Sie erhalten konstruktives Feedback zur Verbesserung der Arbeit; danach erhalten Sie zusätzliches Feedback von den Seminarveranstaltern. Sie können dann eine aktualisierte, endgültige Version einreichen, die benotet wird. Beachten Sie, dass dies bedeutet, dass Sie auch einige kurze Rezensionen zu einer Ausarbeitung einer Ihrer KommilitonenInnen schreiben müssen.
+
+	<h3>Organisation</h3>
+<ol>
+	  <li>Weitere Details werden während des obligatorischen Kick-off-Meetings bekannt gegeben.</li>
+	  <li>Die Paper werden nach dem Kick-off-Meeting vergeben.</li>
+	  <li>Die Vorträge werden in ganztägigen Blockseminaren präsentiert.</li>
+	  <li><b>Alle Treffen (Auftakt, Peer-Review und Vorträge) finden in Raum 228, Theaterstraße 35 - 39 statt.</b></li>
+	</ol>
+
+	
+	<h4>Termine</h4>
+	<table>
+	  <tr>
+	    <th align=left>Datum</th>
+	    <th align=left></th>
+	  </tr>
+	  <tr>
+	    <td>02.10.2023, 11:15 &emsp;</td>
+		  <td>Kick-off-Meeting (in Person).</td>
+	  </tr>
+	  <tr>
+	    <td>03.11.2023, 24:00</td>
+	    <td>Einreichung der vorläufigen Ausarbeitungs-Gliederung.</td>
+	  </tr>
+	  <tr>
+	    <td>01.12.2023, 24:00</td>
+	    <td>Einreichung der Ausarbeitung für das Peer-Review.</td>
+	  </tr>
+	  <tr>
+	    <td>14.12.2023, 24:00</td>
+	    <td>Einreichung der Peer-Reviews.</td>
+	  </tr>		
+	  <tr>
+	    <td>18.12.2023, 10:00</td>
+	    <td>Diskussion der Peer-Reviews in Kleingruppen (in Person).</td>
+	  </tr>
+	  <tr>
+	    <td>09.01.2024, 24:00</td>
+	    <td>Einreichung der überarbeiteten Ausarbeitungen.</td>
+	  </tr>
+	  <tr>
+	    <td>16.01.2024, 24:00</td>
+	    <td>Rückmeldung zu den Ausarbeitungen durch die Organisatoren.</td>
+	  </tr>
+	 <tr>
+	    <td>31.01.2024, 24:00</td>
+	    <td>Einreichung der Vortragsfolien</td>
+	 </tr>
+	  <tr>
+	    <td>05.02.2024, 24:00</td>
+	    <td>Einreichung der finalen Ausarbeitungen.</td>
+	  </tr>
+	  <tr>
+	    <td>07.02.2024, 10:00</td>
+	    <td>Diskussion der Vortragsfolien in Kleingruppen (in Person).</td>
+	  </tr>
+	  <tr>
+	    <td>20.02.2024, 10:00</td>
+	    <td>Vorträge (in Person).</td>
+	  </tr>
+	</table>
+
+	<h3>Papers</h3>
+	Folgende Paper können gewählt werden.
+	<ol>
+	  <li><a href="https://www.jmlr.org/papers/volume12/shervashidze11a/shervashidze11a.pdf">Weisfeiler-Lehman Graph Kernels</li>
+	  <li><a href="https://arxiv.org/pdf/2006.09252">Improving Graph Neural Network Expressivity via Subgraph Isomorphism Counting</li>
+	  <li><a href="https://arxiv.org/pdf/2205.10914">Weisfeiler and Leman Go Walking: Random Walk Kernels Revisited</li>
+	  <li><a href="https://arxiv.org/pdf/2209.09048">Gradual Weisfeiler-Leman: Slow and Steady Wins the Race</li>
+	  <li><a href="https://arxiv.org/pdf/2102.08786">Graph Learning with 1D Convolutions on Random Walks</li>
+	  <li><a href="https://openreview.net/forum?id=mWzWvMxuFg1">Shortest Path Networks for Graph Property Prediction</li>
+	</ol>
+	<p></p>	
+    </div>
+</body>
+</html>
