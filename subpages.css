@@ -1,0 +1,63 @@
+.subpage-shell { width: min(100% - 6rem, 960px); margin-inline: auto; }
+.breadcrumbs { display: flex; align-items: baseline; flex-wrap: wrap; gap: .75rem; padding-block: 25px; border-bottom: 1px solid var(--line); font-size: .9375rem; color: var(--muted); }
+.breadcrumbs a:first-child { font-family: var(--serif); font-size: 1.125rem; }
+.breadcrumbs > span[aria-hidden] { color: #a39699; }
+.subpage-heading { padding-top: 40px; margin-bottom: 24px; }
+.subpage-heading .eyebrow { margin-bottom: 13px; line-height: 1.65; }
+.subpage h1 { max-width: 26ch; font-size: clamp(2rem, 3.7vw, 2.75rem); line-height: 1.25; margin-bottom: 0; }
+.subpage-content { font-size: 1rem; line-height: 1.8; }
+.course-introduction { margin-bottom: 32px; }
+.course-introduction > p:first-child { font-size: 1.0625rem; }
+.subpage-content p { margin-bottom: 16px; }
+.subpage-content ol, .subpage-content ul { padding-left: 1.6rem; margin-block: 14px 20px; }
+.subpage-content li { padding-left: .35rem; margin-bottom: 8px; }
+.subpage-content li:last-child { margin-bottom: 0; }
+.subpage-content li::marker { color: var(--maroon); }
+.content-section { border-top: 1px solid var(--line); padding-top: 27px; margin-top: 28px; }
+.content-section h2 { font-size: 1.625rem; margin-bottom: 17px; }
+.content-section h3 { font-family: var(--serif); font-size: 1.25rem; font-weight: 400; margin: 24px 0 12px; }
+.content-callout, .requirements-section { padding: 24px 28px; background: #f4eded; border: 1px solid #ddc8ce; border-left: 3px solid var(--maroon); margin-block: 28px; }
+.requirements-section h2 { color: var(--maroon); }
+.requirements-section .content-callout { border: 0; padding: 0; margin: 0; background: transparent; }
+.content-callout > :last-child { margin-bottom: 0; }
+.schedule-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: .9375rem; line-height: 1.65; }
+.schedule-table th { text-align: left; font-weight: 600; color: var(--maroon); border-bottom: 1px solid #c8b6bc; padding: 10px 14px; background: #f3eeeb; }
+.schedule-table td { padding: 11px 14px; vertical-align: top; border-bottom: 1px solid var(--line); }
+.schedule-table th:first-child, .schedule-table td:first-child { width: 29%; font-variant-numeric: tabular-nums; }
+.schedule-table tbody tr:nth-child(even) { background: #f7f4f1; }
+.papers-section ol { margin-bottom: 0; }
+.papers-section li { margin-bottom: 11px; }
+.paper-assignee { color: var(--muted); font-size: .9375rem; }
+.subpage code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .9375em; overflow-wrap: anywhere; }
+.subpage-content a { overflow-wrap: anywhere; }
+.subpage .site-footer { margin-top: 40px; justify-content: flex-start; }
+@media (max-width: 900px) {
+  .subpage-shell { width: calc(100% - 4rem); }
+}
+@media (max-width: 680px) {
+  .subpage-shell { width: calc(100% - 2.5rem); }
+  .breadcrumbs { gap: .5rem; padding-block: 19px; font-size: .875rem; }
+  .breadcrumbs a:first-child { font-size: 1.0625rem; }
+  .subpage-heading { padding-top: 28px; margin-bottom: 21px; }
+  .subpage-heading .eyebrow { font-size: .8125rem; letter-spacing: .075em; }
+  .subpage h1 { font-size: 2rem; overflow-wrap: break-word; }
+  .subpage-content { line-height: 1.75; }
+  .course-introduction > p:first-child { font-size: 1rem; }
+  .content-section { padding-top: 23px; margin-top: 24px; }
+  .content-section h2 { font-size: 1.5rem; }
+  .content-callout, .requirements-section { padding: 20px 18px; margin-block: 24px; }
+  .subpage-content ol, .subpage-content ul { padding-left: 1.3rem; }
+  .subpage-content li { padding-left: .2rem; }
+  .schedule-table { font-size: .875rem; }
+  .schedule-table th, .schedule-table td { padding: 10px 7px; }
+  .schedule-table th:first-child, .schedule-table td:first-child { width: 40%; }
+  .schedule-table td { overflow-wrap: anywhere; }
+}
+@media print {
+  .subpage-shell { width: 100%; }
+  .breadcrumbs, .subpage .site-footer { display: none; }
+  .subpage-heading { padding-top: 0; }
+  .subpage h1 { font-size: 24pt; }
+  .content-section h2, .content-section h3 { break-after: avoid; }
+  .schedule-table tr, .content-callout { break-inside: avoid; }
+}
